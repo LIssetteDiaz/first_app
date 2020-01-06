@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  get 'pages/one'
   root 'pages#one'
 
   get 'pages/two'
